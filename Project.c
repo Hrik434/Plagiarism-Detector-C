@@ -926,10 +926,10 @@ double jaccard_similarity(int a, int b){
 //main function
 
 int main() {
-    load_synonyms("C:\\Users\\ASUS\\Desktop\\hashmap.txt");
+    load_synonyms("hashmap.txt");
 
-    const char *filename1 = "C:\\Users\\ASUS\\Desktop\\file1.txt";
-    const char *filename2 = "C:\\Users\\ASUS\\Desktop\\file2.txt";
+    const char *filename1 = "file1.txt";
+    const char *filename2 = "file2.txt";
 
     char *content1 = read_file(filename1);
     char *content2 = read_file(filename2);
